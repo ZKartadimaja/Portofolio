@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero-section {
+      padding: 50px 0;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-size: 48px;
+      font-weight: bold;
+    }
+    .btn-resume {
+      background-color: #ff4b4b;
+      color: white;
+      margin-top: 20px;
+    }
+    .featured-works img {
+      width: 100%;
+      height: auto;
+    }
+    footer {
+      margin-top: 50px;
+      text-align: center;
+    }
+    .social-icons a {
+      margin: 0 10px;
+    }
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+    .avatar {
+        width: 300px;
+        height: auto;
+        border-radius: 50%;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1>Hi, I am Karta,<br>IT Management Trainee</h1>
+          <p>An ocean data analyst for climate change interpretation and ocean and atmospheric interactions.Passionate about marine or ocean research and survey.</p>
+          <a href="https://www.linkedin.com/in/zulfikarzamzam13/" class="btn btn-info">Check My Profile</a>
+        </div>
+        <div class="col-lg-6">
+          <img src="tanduk-jerapahjpg-20230117030226.jpg" alt="Profile Picture" class="avatar">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Posts Section -->
+  <section class="recent-posts py-5 bg-info">
+    <div class="container">
+      <div class="d-flex justify-content-between">
+        <h2>Recent Activity</h2>
+        <a href="https://www.linkedin.com/in/zulfikarzamzam13/details/experience/" style="color: #ff4b4b;">View all</a>
+      </div>
+      <div class="row">
+        <div class="col-lg-6" >
+          <div class="card mb-4">
+            <div class="card-body"style="box-shadow: -10px 10px #7025CF;">
+              <h5 class="card-title">Evaluation Of Sea Surface Temperature From In Situ Measurements Compared To Satellite Observations And Model Output In Panjang Island, Banten</h5>
+              <p class="card-text"><small class="text-muted">16 Jun 2024 | Satellite, Climate</small></p>
+              <p class="card-text">Sea surface temperature (SST) is a crucial parameter in climate change studies, and it can be obtained from various sources, including in-situ measurements, satellite observations, reanalysis, and models.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-4">
+            <div class="card-body"style="box-shadow: -10px 10px #7025CF;">
+              <h5 class="card-title">Environmental Water Condition Check in Jakarta Province</h5>
+              <p class="card-text"><small class="text-muted">Mar 2024 | Environment, Ocean Monitoring</small></p>
+              <p class="card-text">Monitoring pollutants and seawater quality in DKI Jakarta, findings related to the pollution index and seawater quality following Government Regulation Number 22 of 2021 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Works Section -->
+  <section class="featured-works py-5">
+    <div class="container">
+      <h2 class="mb-5">Featured works</h2>
+
+      <!-- Work 1 -->
+      <div class="row mb-4 align-items-center">
+        <div class="col-md-4">
+          <img src="1693026989060.jpg" alt="Designing Dashboards" class="img-fluid rounded">
+        </div>
+        <div class="col-md-8">
+          <h4 class="fw-bold">Logger Monitoring</h4>
+          <p><span class="badge bg-dark">2023</span> <span class="text-muted">Paleoclimatology</span></p>
+          <p>As a Research Assistant, contributing with many researchs like monitoring logger in Banten and Padang</p>
+        </div>
+      </div>
+
+      <!-- Work 2 -->
+      <div class="row mb-4 align-items-center">
+        <div class="col-md-4">
+          <img src="images.jpg" alt="Seagrass Density and Health Distribution Jakarta" class="img-fluid rounded">
+        </div>
+        <div class="col-md-8">
+          <h4 class="fw-bold">Seagrass Density and Health Distribution Jakarta</h4>
+          <p><span class="badge bg-dark">2022</span> <span class="text-muted">Illustration</span></p>
+          <p>Determining the area, density, and health of seagrasses on Kelapa Dua Island, Thousand Islands, Jakarta</p>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4">
+    <div class="container">
+      <div class="social-icons mb-3">
+        <a href="https://github.com/ZKartadimaja"><img src="Social Icons.png" alt="Mail" class="logo"></a>
+        <a href="mailto:zulfikarzamzam13@gmail.com"><img src="Social Icons (1).png" alt="Mail" class="logo"></a>
+        <a href="https://www.linkedin.com/in/zulfikarzamzam13/"><img src="logo-linkedin.png" alt="LinkedIn" class="logo"></a>
+      </div>
+      <p>Copyright ©2024 All rights reserved</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
